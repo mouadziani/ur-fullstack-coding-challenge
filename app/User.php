@@ -6,6 +6,16 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+/**
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @property string $remember_token
+ * @property string $created_at
+ * @property string $updated_at
+ * @property Shop[] $shops
+ */
 class User extends Authenticatable
 {
     use Notifiable;
@@ -29,11 +39,12 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
+     * @return \Illuminate\Database\Eloquent\Relations\belongsToMany
      */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    public function shops()
+    {
+        return $this->belongsToMany(Shop::class, 'preferred_shops')
+                    ->as('preferredShop')
+                    ->withPivot('user_id', 'shop_id', 'created_at', 'updated_at');
+    }
 }
