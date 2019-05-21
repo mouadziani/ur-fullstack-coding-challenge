@@ -47,26 +47,27 @@
 				}
 			},
 			likeOrDislike() {
+				this.$parent.showLoading()
 				let actionUrl = (this.isLikeAction) ? 'like' : 'dislike'
 
 				axios.put(`${API_URL}/shop/${actionUrl}/${this.shop.id}`)
 					.then(response => {
 						if(response.status == 201){
+							this.$parent.hideLoading()
 							this.shop = response.data.shop
 						}
 					})
 					.catch(error => {
+						this.$parent.hideLoading()
 						console.log(error)
 					})
 			},
 			removePreferred() {
+				this.$parent.showLoading()
 				axios.delete(`${API_URL}/shop/prefrred-shop/${this.shop.id}/remove`)
 					.then(response => {
 						if(response.status == 201) {
 							this.$parent.getAll()
-							// _.filter(this.$parent.shops, function(item) {
-							//     return item.id !== this.shop.id;
-							// })
 						}
 					})
 					.catch(error => {

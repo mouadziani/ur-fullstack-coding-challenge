@@ -22,14 +22,22 @@
 		},
 		methods: {
 			getAll() {
+				this.showLoading()
 				axios.get(API_URL + '/shop')
 					.then(response => {
 						this.shops = response.data.shops
-						console.log(this.shops)
+						this.hideLoading()
 					})
 					.catch(error => {
+						this.hideLoading()
 						console.log(error)
 					})
+			},
+			showLoading() {
+				this.$parent.showLoading()
+			},
+			hideLoading() {
+				this.$parent.hideLoading()
 			}
 		},
 		mounted() {

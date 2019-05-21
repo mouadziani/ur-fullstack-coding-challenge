@@ -5,7 +5,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 // Shared components
-let layout = Vue.component('shops-app', require('./components/ShopsComponent.vue').default)
+Vue.component('shops-app', require('./components/ShopsComponent.vue').default)
+Vue.component('loader', require('./components/shared/LoadingComponent.vue').default)
 let navbar = Vue.component('navbar-component', require('./components/shared/NavbarComponent.vue').default)
 // Pages
 let HomePage = Vue.component('all-shops-page', require('./components/pages/AllShopsComponent.vue').default)

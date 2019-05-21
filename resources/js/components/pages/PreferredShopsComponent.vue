@@ -25,14 +25,23 @@
 			getAll() {
 				axios.get(API_URL + '/shop/prefrred-shop') 
 					.then(response => {
+						this.hideLoading()
 						this.shops = response.data.shops
 					})
 					.catch(error => {
+						this.hideLoading()
 						console.log(error)
 					})
+			},
+			showLoading() {
+				this.$parent.showLoading()
+			},
+			hideLoading() {
+				this.$parent.hideLoading()
 			}
 		},
 		mounted() {
+			this.showLoading()
 			this.getAll()
 		}
 	}
