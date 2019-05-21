@@ -14,9 +14,9 @@ class CreatePreferredShopsTable extends Migration
     public function up()
     {
         Schema::create('preferred_shops', function (Blueprint $table) {
-            $table->integer('user_id')->unsigned();
+            $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->integer('shop_id')->unsigned();
+            $table->bigInteger('shop_id')->unsigned();
             $table->foreign('shop_id')->references('id')->on('shops')->onDelete('cascade');
             $table->primary(['user_id', 'shop_id']);
             $table->timestamps();

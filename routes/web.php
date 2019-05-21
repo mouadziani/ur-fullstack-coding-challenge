@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Auth::routes();
+Route::view('shops', 'shops-app');
+Route::group(['prefix' => 'api'], function() {
+	Route::get('shop', 'ShopController@index');
+	Route::put('shop/like/{id}', 'ShopController@like');
+	Route::put('shop/dislike/{id}', 'ShopController@dislike');
+	Route::get('shop/prefrred-shop', 'ShopController@prefrredShop');
+	Route::delete('shop/prefrred-shop/{id}/remove', 'ShopController@removePreferred');
 });

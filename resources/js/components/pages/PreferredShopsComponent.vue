@@ -1,0 +1,39 @@
+<template>
+	<div>
+		<div class="row">
+			<div class="col-md-4">
+				<shop v-for="shop of shops" :shop-item="shop" :preferred-shops="true" :key="shop.id"/>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+	import Shop from './../shared/ShopComponent.vue'
+	import { API_URL } from './../../utils/constants'
+
+	export default {
+		data() {
+			return {
+				shops: [],
+			}	
+		},
+		components: {
+			'shop': Shop
+		},
+		methods: {
+			getAll() {
+				axios.get(API_URL + '/shop/prefrred-shop') 
+					.then(response => {
+						this.shops = response.data.shops
+					})
+					.catch(error => {
+						console.log(error)
+					})
+			}
+		},
+		mounted() {
+			this.getAll()
+		}
+	}
+</script>
