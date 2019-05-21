@@ -1,23 +1,25 @@
 <template>
-	<div class="card">
-		<div class="card-header">
-			{{ shop.name }}
-			<span class="float-right">
-				<strong>{{ shop.likes }}</strong> Likes -
-				<strong>{{ shop.dislikes }}</strong> Dislikes
-			</span>
-		</div>
-		<div class="card-body">
-			<img :src="shop.image" class="card-img-top shop-image">
-		</div>
-		<div class="card-footer">
-			<span v-if="!preferredShops">
-				<button @click="dislike()" :disabled="!shop.liked" class="btn btn-sm float-left btn-danger">Dislike</button>
-				<button @click="like()" :disabled="shop.liked" class="btn btn-sm float-right btn-success">Like</button>
-			</span>
-			<span v-else>
-				<button @click="removePreferred()" class="btn btn-sm float-left btn-danger">Remove</button>
-			</span>
+	<div>
+		<div class="card">
+			<div class="card-header">
+				{{ shop.name }}
+				<span class="float-right">
+					<strong>{{ shop.likes }}</strong> Likes -
+					<strong>{{ shop.dislikes }}</strong> Dislikes
+				</span>
+			</div>
+			<div class="card-body">
+				<img :src="shop.image" class="card-img-top shop-image">
+			</div>
+			<div class="card-footer">
+				<span v-if="!preferredShops">
+					<button @click="dislike()" :disabled="!shop.liked" class="btn btn-sm float-left btn-danger">Dislike</button>
+					<button @click="like()" :disabled="shop.liked" class="btn btn-sm float-right btn-success">Like</button>
+				</span>
+				<span v-else>
+					<button @click="removePreferred()" class="btn btn-sm float-left btn-danger">Remove</button>
+				</span>
+			</div>
 		</div>
 	</div>
 </template>

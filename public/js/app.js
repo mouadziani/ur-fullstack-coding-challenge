@@ -1809,8 +1809,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1870,8 +1868,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1922,6 +1918,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../utils/constants */ "./resources/js/utils/constants.js");
+//
+//
 //
 //
 //
@@ -6459,7 +6457,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.loading {\r\n\tposition: fixed;\r\n\tz-index: 999;\r\n\theight: 2em;\r\n\twidth: 2em;\r\n\toverflow: show;\r\n\tmargin: auto;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tbottom: 0;\r\n\tright: 0;\n}\n.loading:before {\r\n\tcontent: '';\r\n\tdisplay: block;\r\n\tposition: fixed;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tbackground: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));\r\n\tbackground: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));\n}\n.loading:not(:required) {\r\n\tfont: 0/0 a;\r\n\tcolor: transparent;\r\n\ttext-shadow: none;\r\n\tbackground-color: transparent;\r\n\tborder: 0;\n}\n.loading:not(:required):after {\r\n\tcontent: '';\r\n\tdisplay: block;\r\n\tfont-size: 10px;\r\n\twidth: 1em;\r\n\theight: 1em;\r\n\tmargin-top: -0.5em;\r\n\t-webkit-animation: spinner 1500ms infinite linear;\r\n\tanimation: spinner 1500ms infinite linear;\r\n\tborder-radius: 0.5em;\r\n\tbox-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;\n}\r\n\r\n/* Animation */\n@-webkit-keyframes spinner {\n0% {\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\ttransform: rotate(0deg);\n}\n100% {\r\n\t\t-webkit-transform: rotate(360deg);\r\n\t\ttransform: rotate(360deg);\n}\n}\n@keyframes spinner {\n0% {\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\ttransform: rotate(0deg);\n}\n100% {\r\n\t\t-webkit-transform: rotate(360deg);\r\n\t\ttransform: rotate(360deg);\n}\n}\r\n", ""]);
+exports.push([module.i, "\n.loading {\r\n\tposition: fixed;\r\n\tz-index: 999;\r\n\theight: 2em;\r\n\twidth: 2em;\r\n\toverflow: show;\r\n\tmargin: auto;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tbottom: 0;\r\n\tright: 0;\n}\n.loading:before {\r\n\tcontent: '';\r\n\tdisplay: block;\r\n\tposition: fixed;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tbackground: radial-gradient(rgba(20, 20, 20,.4), rgba(0, 0, 0, .4));\r\n\tbackground: -webkit-radial-gradient(rgba(20, 20, 20,.4), rgba(0, 0, 0,.4));\n}\n.loading:not(:required) {\r\n\tfont: 0/0 a;\r\n\tcolor: transparent;\r\n\ttext-shadow: none;\r\n\tbackground-color: transparent;\r\n\tborder: 0;\n}\n.loading:not(:required):after {\r\n\tcontent: '';\r\n\tdisplay: block;\r\n\tfont-size: 10px;\r\n\twidth: 1em;\r\n\theight: 1em;\r\n\tmargin-top: -0.5em;\r\n\t-webkit-animation: spinner 1500ms infinite linear;\r\n\tanimation: spinner 1500ms infinite linear;\r\n\tborder-radius: 0.5em;\r\n\tbox-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;\n}\r\n\r\n/* Animation */\n@-webkit-keyframes spinner {\n0% {\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\ttransform: rotate(0deg);\n}\n100% {\r\n\t\t-webkit-transform: rotate(360deg);\r\n\t\ttransform: rotate(360deg);\n}\n}\n@keyframes spinner {\n0% {\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\ttransform: rotate(0deg);\n}\n100% {\r\n\t\t-webkit-transform: rotate(360deg);\r\n\t\ttransform: rotate(360deg);\n}\n}\r\n", ""]);
 
 // exports
 
@@ -38030,19 +38028,18 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        { staticClass: "col-md-4" },
-        _vm._l(_vm.shops, function(shop) {
-          return _c("shop", {
-            key: shop.id,
-            attrs: { "shop-item": shop, "preferred-shops": false }
-          })
-        }),
-        1
-      )
-    ])
+    _c(
+      "div",
+      { staticClass: "row" },
+      _vm._l(_vm.shops, function(shop) {
+        return _c("shop", {
+          key: shop.id,
+          staticClass: "col-md-4 mb-2",
+          attrs: { "shop-item": shop, "preferred-shops": false }
+        })
+      }),
+      1
+    )
   ])
 }
 var staticRenderFns = []
@@ -38068,19 +38065,18 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        { staticClass: "col-md-4" },
-        _vm._l(_vm.shops, function(shop) {
-          return _c("shop", {
-            key: shop.id,
-            attrs: { "shop-item": shop, "preferred-shops": true }
-          })
-        }),
-        1
-      )
-    ])
+    _c(
+      "div",
+      { staticClass: "row" },
+      _vm._l(_vm.shops, function(shop) {
+        return _c("shop", {
+          key: shop.id,
+          staticClass: "col-md-4 mb-2",
+          attrs: { "shop-item": shop, "preferred-shops": true }
+        })
+      }),
+      1
+    )
   ])
 }
 var staticRenderFns = []
@@ -38234,69 +38230,71 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "card" }, [
-    _c("div", { staticClass: "card-header" }, [
-      _vm._v("\n\t\t" + _vm._s(_vm.shop.name) + "\n\t\t"),
-      _c("span", { staticClass: "float-right" }, [
-        _c("strong", [_vm._v(_vm._s(_vm.shop.likes))]),
-        _vm._v(" Likes -\n\t\t\t"),
-        _c("strong", [_vm._v(_vm._s(_vm.shop.dislikes))]),
-        _vm._v(" Dislikes\n\t\t")
+  return _c("div", [
+    _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-header" }, [
+        _vm._v("\n\t\t\t" + _vm._s(_vm.shop.name) + "\n\t\t\t"),
+        _c("span", { staticClass: "float-right" }, [
+          _c("strong", [_vm._v(_vm._s(_vm.shop.likes))]),
+          _vm._v(" Likes -\n\t\t\t\t"),
+          _c("strong", [_vm._v(_vm._s(_vm.shop.dislikes))]),
+          _vm._v(" Dislikes\n\t\t\t")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-body" }, [
+        _c("img", {
+          staticClass: "card-img-top shop-image",
+          attrs: { src: _vm.shop.image }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-footer" }, [
+        !_vm.preferredShops
+          ? _c("span", [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-sm float-left btn-danger",
+                  attrs: { disabled: !_vm.shop.liked },
+                  on: {
+                    click: function($event) {
+                      return _vm.dislike()
+                    }
+                  }
+                },
+                [_vm._v("Dislike")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-sm float-right btn-success",
+                  attrs: { disabled: _vm.shop.liked },
+                  on: {
+                    click: function($event) {
+                      return _vm.like()
+                    }
+                  }
+                },
+                [_vm._v("Like")]
+              )
+            ])
+          : _c("span", [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-sm float-left btn-danger",
+                  on: {
+                    click: function($event) {
+                      return _vm.removePreferred()
+                    }
+                  }
+                },
+                [_vm._v("Remove")]
+              )
+            ])
       ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "card-body" }, [
-      _c("img", {
-        staticClass: "card-img-top shop-image",
-        attrs: { src: _vm.shop.image }
-      })
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "card-footer" }, [
-      !_vm.preferredShops
-        ? _c("span", [
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-sm float-left btn-danger",
-                attrs: { disabled: !_vm.shop.liked },
-                on: {
-                  click: function($event) {
-                    return _vm.dislike()
-                  }
-                }
-              },
-              [_vm._v("Dislike")]
-            ),
-            _vm._v(" "),
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-sm float-right btn-success",
-                attrs: { disabled: _vm.shop.liked },
-                on: {
-                  click: function($event) {
-                    return _vm.like()
-                  }
-                }
-              },
-              [_vm._v("Like")]
-            )
-          ])
-        : _c("span", [
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-sm float-left btn-danger",
-                on: {
-                  click: function($event) {
-                    return _vm.removePreferred()
-                  }
-                }
-              },
-              [_vm._v("Remove")]
-            )
-          ])
     ])
   ])
 }

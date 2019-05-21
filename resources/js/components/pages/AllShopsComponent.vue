@@ -1,9 +1,7 @@
 <template>
 	<div>
 		<div class="row">
-			<div class="col-md-4">
-				<shop v-for="shop of shops" :shop-item="shop" :preferred-shops="false" :key="shop.id"/>
-			</div>
+			<shop class="col-md-4 mb-2" v-for="shop of shops" :shop-item="shop" :preferred-shops="false" :key="shop.id"/>
 		</div>
 	</div>
 </template>
