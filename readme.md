@@ -15,7 +15,7 @@ This repository is my own implementation of the [United Remote web coding challe
 ## Used technologies
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/vue-laravel-logo.png.png">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/vue-laravel-logo.png">
 </p>
 
 SPA (Single page application based on ) : **Laravel 5.8** & **Vuejs 2**
