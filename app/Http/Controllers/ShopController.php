@@ -16,7 +16,7 @@ class ShopController extends Controller
     public function index()
     {
         return response()->json([
-            'shops' => ShopResource::collection(Shop::all())
+            'shops' => ShopResource::collection(Shop::orderBy('distance', 'ASC')->get())
         ], 200);
     }
 

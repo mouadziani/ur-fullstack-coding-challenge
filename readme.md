@@ -1,6 +1,6 @@
-# Front-end Coding Challenge
+# Web Coding Challenge
 
-This repository is my own implementation of the [United Remote fullstack coding challenge](https://github.com/hiddenfounders/web-coding-challenge/blob/master/coding-challenge.md).
+This repository is my own implementation of the [United Remote web coding challenge](https://github.com/hiddenfounders/web-coding-challenge/blob/master/coding-challenge.md).
 
 ## Implemented features
 
@@ -14,12 +14,17 @@ This repository is my own implementation of the [United Remote fullstack coding 
 
 ## Used technologies
 
-**Laravel 5.8** & **Vuejs 2**
+<p align="center">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/vue-laravel-logo.png.png">
+</p>
+
+SPA (Single page application based on ) : **Laravel 5.8** & **Vuejs 2**
 
 Other tools:
 - **npm** as my dependencies manager.
 - **git** for version control.
 - **laravel-mix** for compiling and optimizing assets.
+- **vue-router** for switching between pages without refreshing the page
 - **underscore.js** for js helper.
 - **Bootstrap 4** for styling.
 
@@ -37,3 +42,27 @@ To get the project up and running on your local machine, do the following. I ass
 php artisan serve
 ```
 - visit the site at localhost:8000
+
+## Screenshots
+
+# Sign up
+<p align="center">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/1.png">
+</p>
+
+# Sign in
+<p align="center">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/2.png">
+</p>
+
+# Nearby Shops
+<p align="center">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/3.png">
+</p>
+
+# My preferred Shops
+<p align="center">
+	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/4.png">
+</p>
+
+
