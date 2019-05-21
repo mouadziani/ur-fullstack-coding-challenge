@@ -1,6 +1,6 @@
-# Front-end Coding Challenge
+# Web Coding Challenge
 
-This repository is my own implementation of the [United Remote fullstack coding challenge](https://github.com/hiddenfounders/web-coding-challenge/blob/master/coding-challenge.md).
+This repository is my own implementation of the [United Remote web coding challenge](https://github.com/hiddenfounders/web-coding-challenge/blob/master/coding-challenge.md).
 
 ## Implemented features
 
