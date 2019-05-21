@@ -25,7 +25,7 @@ Other tools:
 - **git** for version control.
 - **laravel-mix** for compiling and optimizing assets.
 - **vue-router** for switching between pages without refreshing the page
-- **underscore.js** for js helper.
+- **lodash.js** Js lib which provides utility functions for common programming tasks.
 - **Bootstrap 4** for styling.
 
 ## Installation & testing
@@ -43,24 +43,24 @@ php artisan serve
 ```
 - visit the site at localhost:8000
 
-## Screenshots
+# Screenshots
 
-# Sign up
+## Sign up
 <p align="center">
 	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/1.png">
 </p>
 
-# Sign in
+## Sign in
 <p align="center">
 	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/2.png">
 </p>
 
-# Nearby Shops
+## Nearby Shops
 <p align="center">
 	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/3.png">
 </p>
 
-# My preferred Shops
+## My preferred Shops
 <p align="center">
 	<img src="https://raw.githubusercontent.com/MouadZIANI/ur-fullstack-coding-challenge/master/screenshots/4.png">
 </p>
