@@ -75,7 +75,7 @@ class ShopController extends Controller
     }
 
     /**
-     * Remove the specified shop form preferred shops of connected user.
+     * Remove the specified shop from preferred shops of connected user.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
